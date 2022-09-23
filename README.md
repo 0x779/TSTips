@@ -112,7 +112,7 @@ for mat in bpy.data.materials:
 
 
 ### Set Blend Mode for multiple materials
-A quick an easy method of chaning the Blend Mode for materials. Note that this works for meshes/objects with one material per (other materials will not change).
+A quick an easy method of chaning the Blend Mode for materials. Change `OPAQUE` for anything else, such as `ALPHA_BLEND` or `ALPHA_HASHED`.
 
 ![enter image description here](https://i.imgur.com/IitCVHo.gif)
 
