@@ -270,7 +270,7 @@ A good analogy for this is moving faces/vertices in 3ds Max in the Edit Poly mod
 ### Importing a model for Nanite (UE5)
 Unreal Engine 5 now has a brand new system called Nanite which can process close to a bajillion polygons. Importing a model for Nanite is pretty straightforward: just check the `Build Nanite` box in the FBX Import Options.
 
-![enter image description here](https://docs.unrealengine.com/5.0/Images/RenderingFeatures/Nanite/nanite-importoptions.webp)
+![enter image description here](https://i.imgur.com/9mWrCKj.png)
 
 **Please do note, that Nanite does not currently support skeletal meshes, so any kind of rig or animation will not carry over.**
 
