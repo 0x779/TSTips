@@ -330,6 +330,11 @@ Various exchange formats such as OBJ, GLTF and USD can be converted to USDZ usin
 
 &nbsp;
 
+## Lumion
+
+Currently, [nothing can be exported from Lumion](https://support.lumion.com/hc/en-us/articles/360003475333-Can-you-export-3D-models-from-Lumion-), be it geometry, materials or textures.
+&nbsp;
+
 ## UDIMs
 
 TODO
