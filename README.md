@@ -63,11 +63,11 @@ When working on large scenes and either Blender or your GPU crashes, it helps to
 &nbsp;
 
 
-### Easy glass in Eevee
+### Simple glass in EEVEE
 
-A fast and easy way to render semi-realistic glass in Eevee is to add a Glass node, activate `Screen Space Refraction` in the material, then activate the `Refraction` option in the `Screen Space Reflection` options.
+Here's a quick and easy way of simulating semi-realistic glass in EEVEE (don't forget to set the blend mode to Alpha Blend). One thing to not is that due to how EEVEE renders transparent surfaces, there will be some z-fighting going on with complex objects. This method works flawlessly for flat objects, though.
 
-![blenderGlass](https://user-images.githubusercontent.com/1897654/158759900-885f41e1-2d5c-4991-9372-32bd014f31ec.gif)
+![Simple glass in EEVEE](https://user-images.githubusercontent.com/1897654/195306029-cd2ad3fe-8687-4812-95d8-7b152ba27d80.png)
 
 
 &nbsp;
