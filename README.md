@@ -27,6 +27,12 @@ Table of contents:
 
 For converting multiple 3ds Max files to various exchange formats (3DS, OBJ, DWG, FBX, etc.), there's an [excellent little script from bodylcg](https://bodyulcg.com/tools/batch-convert-max-files/) which does exactly that. 
 
+### Performance improvement for large scenes
+
+A very straightforward alleviation to the issue of an unresponsive or sluggish 3ds Max when working with very large scenes is to lower the texture resolution in the viewport.
+
+<img width="433" alt="max_texturesize" src="https://user-images.githubusercontent.com/1897654/213131366-09123845-3a7a-499e-a6b6-f30c92dd45b1.png">
+
 
 &nbsp;
 
