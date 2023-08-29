@@ -33,6 +33,23 @@ A very straightforward alleviation to the issue of an unresponsive or sluggish 3
 
 <img width="433" alt="max_texturesize" src="https://user-images.githubusercontent.com/1897654/213131366-09123845-3a7a-499e-a6b6-f30c92dd45b1.png">
 
+### Revert to standard materials from physical materials
+
+Newer versions of 3ds Max (2021 and later) will default to physical materials instead of standard (scanline) materials when importing/exporting files. This is sometimes unwanted behavior, as not many software packages can interpret these phyiscal materials. Luckly, you can revert to standard scanline materials by editing the `3dsmax.ini` file in the your preferences folder (usually `C:\users\<username>\AppData\Local\Autodesk\3dsmax\<versionnumber>\ENU`) and changing the following lines:
+
+In `[LegacyMaterial]`:
+```
+StandardMtlFBXImport=1
+OBJImport=1
+SceneConverter=1
+3DSImport=1
+ATFImporter=1
+```
+
+In `[ExportPhysicalMaterial]`:
+```
+PhysicalMtlAsLambert=1
+```
 
 &nbsp;
 
