@@ -73,9 +73,11 @@ Suffice to say that some rigged models do not import properly in Blender. One wo
 
 ### DAE vs FBX
 
-On the topic of FBX, the current implementation of this importer is written in Python, which makes importing/exporting FBX files from/to Blender _very_ slow. On the other side of the spectrum, there is the DAE plugin, which is written in C++ and performs extremely well.
+~~On the topic of FBX, the current implementation of this importer is written in Python, which makes importing/exporting FBX files from/to Blender _very_ slow. On the other side of the spectrum, there is the DAE plugin, which is written in C++ and performs extremely well~~
 
-Whenever possible, try to use the DAE plugin, as it is fast, doesn't have the aforementioned transform bug and generally handles materials way better.
+~~Whenever possible, try to use the DAE plugin, as it is fast, doesn't have the aforementioned transform bug and generally handles materials way better.~~
+
+Fixed in Blender 4.2. FBX import is now significantly faster.
 
 &nbsp;
 
